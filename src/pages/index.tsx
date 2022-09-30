@@ -3,12 +3,18 @@ import { CompletedChallenges } from '../components/CompletedChallenges'
 import { Countdown } from '../components/Countdown'
 import { ExperienceBar } from '../components/ExperienceBar'
 import { Profile } from '../components/Profile'
+import Head from "next/head";
+
 import styles from "../styles/pages/Home.module.css"
 
 const Home: NextPage = () => {
 
   return (
     <div className={styles.container}>
+
+      <Head>
+        <title>Home | shake.it</title>
+      </Head>
       <ExperienceBar />
 
       <section>
