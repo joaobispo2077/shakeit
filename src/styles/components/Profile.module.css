@@ -1,0 +1,26 @@
+.profile {
+  display: flex;
+
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.profile > img {
+  width: 5.5rem;
+  height: 5.5rem;
+  border-radius: 50%;
+}
+
+.profile > div > strong {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--title);
+}
+
+.profile > div > p {
+  font-size: 1rem;
+  font-weight: 500;
+
+  display: flex;
+  gap: .75rem;
+}
